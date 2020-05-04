@@ -41,7 +41,7 @@ class Producer(object):
             print("Topic = ", record_metadata.topic)
             print("Partition = ", record_metadata.partition)
             print("Offset = ", record_metadata.offset)
-            print("\n")
+            print("\n\n")
         except KafkaError:
             # Decide what to do if produce request failed...
             message = "\nLooks like there is some problem while sending a message in KAFKA\n"

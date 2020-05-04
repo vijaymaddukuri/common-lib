@@ -14,7 +14,7 @@ git submodule add https://github.com/user/submodule submodule-dir
 
 ## When files are updated in sub module, how to get those changes into parent repo:
 
- git submodule update --remote
+git submodule update --remote
 
 
 ## Now whenever you execute git update, it will execute a git pull and a git submodule update --init --recursive,

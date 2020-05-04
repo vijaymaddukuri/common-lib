@@ -1,5 +1,4 @@
 # STANDARD MODULES
-import os
 import time
 import json
 from kafka import KafkaClient

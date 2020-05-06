@@ -16,6 +16,8 @@ git submodule add https://github.com/user/submodule submodule-dir
 
 git submodule update --remote
 
+git submodule foreach git pull
+
 
 ## Now whenever you execute git update, it will execute a git pull and a git submodule update --init --recursive,
 thus updating all the code in your project.
@@ -54,3 +56,7 @@ git submodule deinit -f — mymodule
 rm -rf .git/modules/mymodule
 
 git rm -f mymodule 
+
+## To clone git repo with submodule:
+
+git clone –recursive <Project-Url>

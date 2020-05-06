@@ -19,7 +19,7 @@ git submodule update --remote
 git submodule foreach git pull
 
 
-## Now whenever you execute git update, it will execute a git pull and a git submodule update --init --recursive,
+## Now whenever we execute git update, it will execute a git pull and a git submodule update --init --recursive,
 thus updating all the code in your project.
 
 git config --global alias.update '!git pull && git submodule update --init --recursive'
@@ -59,4 +59,4 @@ git rm -f mymodule 
 
 ## To clone git repo with submodule:
 
-git clone –recursive <Project-Url>
+git clone –recursive Project-Url

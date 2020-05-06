@@ -5,7 +5,6 @@ from kafka import KafkaClient
 from kafka import KafkaProducer
 from kafka.errors import KafkaError
 
-
 def get_localtime():
     """
         Returns current date and time

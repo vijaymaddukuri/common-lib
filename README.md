@@ -59,4 +59,4 @@ git rm -f mymodule 
 
 ## To clone git repo with submodule:
 
-git clone –recursive <Project-Url>
+git clone –recursive Project-Url
